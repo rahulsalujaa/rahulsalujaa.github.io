@@ -1,0 +1,26 @@
+baseURL = "https://rahulsalujaa.github.io/"
+languageCode = "en-us"
+title = "Rahul's Blog"
+theme = "PaperMod"
+
+[params]
+  showReadingTime = true
+
+[params.homeInfoParams]
+  Title = "Hi, I'm Rahul"
+  Content = "Welcome to my blog"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3

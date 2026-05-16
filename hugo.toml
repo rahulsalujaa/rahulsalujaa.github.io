@@ -1,6 +1,6 @@
 baseURL = "https://rahulsalujaa.github.io/"
 languageCode = "en-us"
-title = "Rahul's Blog"
+title = "Rahul Saluja"
 theme = "PaperMod"
 
 [params]

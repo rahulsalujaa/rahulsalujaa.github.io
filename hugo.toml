@@ -10,6 +10,10 @@ theme = "PaperMod"
   showPostNavLinks = true
   defaultTheme = "dark"
 
+[params.label]
+  iconURL = "/images/logo.svg"
+  iconHeight = 35
+
 [params.homeInfoParams]
   Title = "Hi, I'm Rahul Saluja"
   Content = "I write about investing, personal finance, and data-driven insights into Indian markets."

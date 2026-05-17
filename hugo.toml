@@ -5,10 +5,22 @@ theme = "PaperMod"
 
 [params]
   showReadingTime = true
+  showShareButtons = true
+  showBreadCrumbs = true
+  showPostNavLinks = true
+  defaultTheme = "dark"
 
 [params.homeInfoParams]
-  Title = "Hi, I'm Rahul"
-  Content = "Welcome to my blog"
+  Title = "Hi, I'm Rahul Saluja"
+  Content = "I write about investing, personal finance, and data-driven insights into Indian markets."
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/yourprofile"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:your@email.com"
 
 [[menu.main]]
   name = "Home"

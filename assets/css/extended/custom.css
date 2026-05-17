@@ -1,0 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap');
+body { font-family: 'Lora', serif; }
+h1, h2, h3, h4, h5, h6, .post-title, .entry-hint, nav, .menu, .logo, header { font-family: 'Crimson Pro', serif; }
+.post-content { font-family: 'Lora', serif; }

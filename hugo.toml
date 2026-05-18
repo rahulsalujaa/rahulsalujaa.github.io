@@ -24,11 +24,11 @@ theme = "PaperMod"
 
 [[params.socialIcons]]
   name = "linkedin"
-  url = "https://www.linkedin.com/in/rahul-saluja-90a859152"
+  url = "https://www.linkedin.com/in/rahulsalujaa/"
 
 [[params.socialIcons]]
   name = "email"
-  url = "mailto:your@email.com"
+  url = "mailto:contactsalujarahul@gmail.com"
 
 [[menu.main]]
   name = "Home"

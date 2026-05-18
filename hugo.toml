@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Rahul Saluja"
 theme = "PaperMod"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   showReadingTime = true
   showShareButtons = false
@@ -19,8 +24,38 @@ theme = "PaperMod"
   text = "RS | Rahul Saluja"
 
 [params.homeInfoParams]
-  Title = "Hi, I'm Rahul Saluja"
-  Content = "I write about investing, personal finance, and data-driven insights into Indian markets."
+  Title = "&#8205;"
+  Content = """
+<div style="max-width:600px;margin:0 auto;">
+<div style="display:flex;align-items:center;gap:16px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:16px 20px;margin-bottom:28px;">
+<div style="width:48px;height:48px;border-radius:50%;background:#4a7fb5;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+</div>
+<div>
+<div style="font-size:1.4em;font-weight:700;">Hi, I'm Rahul Saluja</div>
+<div style="font-size:0.82em;opacity:0.5;letter-spacing:0.3px;">BNY &middot; CFA Level II Cleared &middot; INVESTING &amp; PERSONAL FINANCE</div>
+</div>
+</div>
+
+<p style="margin-bottom:6px;">I write about investing, personal finance, and data-driven insights into Indian markets.</p>
+
+<p style="margin-bottom:6px;">My focus is helping everyday investors think more clearly about money &mdash; from mutual funds and portfolio construction to risk-return trade-offs, behavioral aspects of investing, and long-term wealth-building frameworks that often get overlooked.</p>
+
+<p style="margin-bottom:6px;">What I enjoy most is the analytical side of investing: historical simulations, scenario analysis, Monte Carlo methods, and stress-testing ideas against real market behavior instead of relying on narratives alone.</p>
+
+<p style="margin-bottom:6px;">With 4+ years of experience across finance operations and investment analysis, I also use Python and AI-assisted research workflows to streamline analysis and automate execution-heavy tasks.</p>
+
+<p style="margin-bottom:6px;">My philosophy is simple: numbers over noise, frameworks over products, clarity over complexity. Most investors aren&rsquo;t short on options &mdash; they&rsquo;re short on a framework to evaluate them.</p>
+
+<p style="margin-bottom:16px;"><em>Researching out loud. Sharing what I learn &mdash; one thoughtful post at a time.</em></p>
+
+<div style="display:flex;flex-wrap:wrap;gap:8px;margin:20px 0;">
+<span style="border:1.5px solid #3b82f6;color:#3b82f6;padding:3px 12px;border-radius:16px;font-size:0.78em;background:rgba(59,130,246,0.1);">Mutual Funds</span>
+<span style="border:1.5px solid #10b981;color:#10b981;padding:3px 12px;border-radius:16px;font-size:0.78em;background:rgba(16,185,129,0.1);">Wealth Management</span>
+<span style="border:1.5px solid #f59e0b;color:#f59e0b;padding:3px 12px;border-radius:16px;font-size:0.78em;background:rgba(245,158,11,0.1);">Portfolio Construction</span>
+</div>
+</div>
+"""
 
 [[params.socialIcons]]
   name = "linkedin"

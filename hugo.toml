@@ -9,10 +9,11 @@ theme = "PaperMod"
   showBreadCrumbs = true
   showPostNavLinks = true
   defaultTheme = "dark"
-  assets.favicon = "/favicon.ico"
-  assets.favicon16x16 = "/favicon-16x16.png"
-  assets.favicon32x32 = "/favicon-32x32.png"
-  assets.apple_touch_icon = "/apple-touch-icon.png"
+
+[params.assets]
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon-16x16.png"
+  favicon32x32 = "/favicon-32x32.png"
 
 [params.label]
   text = "RS | Rahul Saluja"

@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [params]
   showReadingTime = true
-  showShareButtons = true
+  showShareButtons = false
   showBreadCrumbs = true
   showPostNavLinks = true
   defaultTheme = "dark"

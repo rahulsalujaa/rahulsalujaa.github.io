@@ -11,9 +11,7 @@ theme = "PaperMod"
   defaultTheme = "dark"
 
 [params.label]
-  text = "Rahul Saluja"
-  icon = "/images/logo.svg"
-  iconHeight = 35
+  text = "RS | Rahul Saluja"
 
 [params.homeInfoParams]
   Title = "Hi, I'm Rahul Saluja"

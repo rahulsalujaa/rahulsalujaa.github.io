@@ -11,7 +11,8 @@ theme = "PaperMod"
   defaultTheme = "dark"
 
 [params.label]
-  iconURL = "/images/logo.svg"
+  text = "Rahul Saluja"
+  icon = "/images/logo.svg"
   iconHeight = 35
 
 [params.homeInfoParams]
@@ -20,7 +21,7 @@ theme = "PaperMod"
 
 [[params.socialIcons]]
   name = "linkedin"
-  url = "https://linkedin.com/in/yourprofile"
+  url = "https://www.linkedin.com/in/rahul-saluja-90a859152"
 
 [[params.socialIcons]]
   name = "email"

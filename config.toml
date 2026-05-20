@@ -1,0 +1,66 @@
+baseURL = "https://rahulsalujaa.github.io/"
+locale = "en-us"
+title = "Rahul Saluja"
+theme = "PaperMod"
+paginate = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  showReadingTime = true
+  showShareButtons = false
+  showBreadCrumbs = true
+  showPostNavLinks = true
+  defaultTheme = "dark"
+  disableThemeToggle = true
+
+[params.assets]
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon-16x16.png"
+  favicon32x32 = "/favicon-32x32.png"
+
+[params.label]
+  text = "RS | Rahul Saluja"
+
+[params.homeInfoParams]
+  Title = "&#8205;"
+  Content = """
+<div style="max-width:600px;margin:0 auto;">
+
+<div style="margin-bottom:24px;">
+<div style="font-size:1.5em;font-weight:700;margin-bottom:4px;">Hi, I'm Rahul Saluja</div>
+<div style="font-size:0.82em;opacity:0.5;letter-spacing:0.3px;">BNY &middot; CFA Level II Cleared</div>
+</div>
+
+<p style="font-size:1.05em;font-weight:500;margin-bottom:16px;line-height:1.5;">Most investors aren&rsquo;t short on options &mdash; they&rsquo;re short on a framework to evaluate them.</p>
+
+<p style="margin-bottom:16px;opacity:0.85;line-height:1.7;">I write about investing, personal finance, and Indian markets through an analytical lens &mdash; simulations, stress-tests, and Python-powered research tools instead of narratives and gut feel. My focus is helping everyday investors think more clearly about money.</p>
+
+<p style="font-weight:600;margin-bottom:6px;">Numbers over noise. Frameworks over products. Clarity over complexity.</p>
+
+<p style="margin-bottom:20px;opacity:0.6;"><em>Researching out loud &mdash; one thoughtful post at a time.</em></p>
+
+<div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:8px;">
+<a href="/posts/" style="display:inline-block;padding:8px 20px;background:#3b82f6;color:#fff;border-radius:8px;font-size:0.88em;font-weight:500;text-decoration:none;">Read Latest Articles &rarr;</a>
+</div>
+
+</div>
+"""
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3

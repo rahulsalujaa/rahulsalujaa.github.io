@@ -3,6 +3,7 @@ title: "For every ₹100 sitting in Indian bank accounts, ₹29 is now in mutual
 date: 2026-05-16
 tags: ["Trends", "Mutual Fund", "Investing", "investment"]
 draft: false
+summary: "I pulled six years of AMFI data (FY20 to FY26) and broke down every rupee. India isn't just investing more — it's investing very differently."
 ---
 
 

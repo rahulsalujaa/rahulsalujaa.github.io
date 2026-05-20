@@ -1,38 +1,30 @@
 name: Sync Notion and Deploy
-
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 */6 * * *'
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true
-
+          submodules: recursive
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - run: npm install
-
       - name: Sync from Notion
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: node sync-notion.js
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
-
       - run: hugo --minify
-
       - name: Deploy to Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

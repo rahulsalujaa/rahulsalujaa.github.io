@@ -1,5 +1,7 @@
 name: Sync Notion and Deploy
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: '0 */6 * * *'
@@ -8,12 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: true
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
       - run: npm install
       - name: Clone PaperMod theme
-        run: git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+        run: |
+          if [ ! -d "themes/PaperMod" ]; then
+            git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+          fi
       - name: Sync from Notion
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
